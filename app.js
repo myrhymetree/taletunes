@@ -21,7 +21,7 @@ function removeBrackets(text) {
   return text.replace(/\[.*?\]/g, '');
 }
 
-const filePath = './little_women.txt';
+const filePath = './sample/little_women.txt';
 
 // Function to call GPT
 async function callGpt(filePath) {
